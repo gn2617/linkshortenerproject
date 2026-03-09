@@ -54,11 +54,6 @@ export default async function Home() {
               Get Started Free
             </Button>
           </SignUpButton>
-          <SignInButton mode="modal">
-            <Button size="lg" variant="outline" className="px-8">
-              Sign In
-            </Button>
-          </SignInButton>
         </div>
       </section>
 
