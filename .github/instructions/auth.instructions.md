@@ -1,3 +1,7 @@
+---
+description: "Read this file to understand how authentication works in the project."
+---
+
 # Authentication Instructions
 
 All authentication in this app is handled exclusively by **Clerk**. Do not introduce any other auth library or custom auth solution.

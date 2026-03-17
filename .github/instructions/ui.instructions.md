@@ -1,3 +1,7 @@
+---
+description: "Read this file to understand how the UI is built in the project."
+---
+
 # UI Instructions
 
 All UI in this app is built exclusively with **shadcn/ui** components. Do not create custom components from scratch when a shadcn/ui equivalent exists.
