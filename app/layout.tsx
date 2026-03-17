@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <ClerkProvider appearance={{ theme: dark }}>
+        <ClerkProvider appearance={{ theme: dark }} afterSignInUrl="/dashboard" afterSignUpUrl="/dashboard">
           <header className="flex justify-end items-center p-4 gap-4 h-16">
             <Show when="signed-out">
               <SignInButton mode='modal'>
